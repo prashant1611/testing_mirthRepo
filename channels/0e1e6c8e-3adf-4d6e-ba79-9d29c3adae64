@@ -3,7 +3,7 @@
   <nextMetaDataId>2</nextMetaDataId>
   <name>testing</name>
   <description></description>
-  <revision>2</revision>
+  <revision>3</revision>
   <sourceConnector version="4.5.4">
     <metaDataId>0</metaDataId>
     <name>sourceConnector</name>
@@ -29,7 +29,8 @@
         <com.mirth.connect.plugins.javascriptstep.JavaScriptStep version="4.5.4">
           <sequenceNumber>0</sequenceNumber>
           <enabled>true</enabled>
-          <script>var testingchannelHistory = &quot;hello &quot;;</script>
+          <script>var testingchannelHistory = &quot;hello &quot;;
+var testingagain = &quot;again&quot;;</script>
         </com.mirth.connect.plugins.javascriptstep.JavaScriptStep>
       </elements>
       <inboundTemplate encoding="base64"></inboundTemplate>
@@ -179,7 +180,7 @@ return;</undeployScript>
     <metadata>
       <enabled>true</enabled>
       <lastModified>
-        <time>1753298505539</time>
+        <time>1753298584382</time>
         <timezone>Asia/Calcutta</timezone>
       </lastModified>
       <pruningSettings>
